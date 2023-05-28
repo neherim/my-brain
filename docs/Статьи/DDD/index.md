@@ -1,5 +1,6 @@
 ---
 share: true
+category: DDD
 ---
 
 Domain Driven Design предоставляет набор методов создания программного обеспечения ориентируясь на бизнес. Первоначально он был придуман Эриком Эвансом в 2003 году с публикацией Domain-Driven Design: Tackling Complexity in the Heart of Software.
