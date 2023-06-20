@@ -10,7 +10,7 @@ hide:
 
 >Compares this BigDecimal with the specified Object for equality. Unlike compareTo, this method considers two BigDecimal objects equal only if they are equal in value and scale (thus 2.0 is not equal to 2.00 when compared by this method).
 
-Таким образом сравнивается не только сами значения, но и количество знаков после запятой, даже если это нули. Если вы хотите, чтобы при сравнении точность не играла такой роли, то используйте метод compareTo. На практике это выглядит так:
+Таким образом сравнивается не только сами значения, но и количество знаков после запятой, даже если это нули. Если вы хотите, чтобы при сравнении точность не играла такой роли, то используйте метод `compareTo`. На практике это выглядит так:
 
 ```java
 var a = new BigDecimal("0.8");
